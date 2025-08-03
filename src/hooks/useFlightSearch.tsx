@@ -41,7 +41,7 @@ export const useFlightSearch = (formData: SearchFormData): UseFlightSearchReturn
   }, [formData]);
 
   useEffect(() => {
-    // Load initial flights on mount
+   
     searchFlights();
   }, []); // Empty dependency array for initial load only
 

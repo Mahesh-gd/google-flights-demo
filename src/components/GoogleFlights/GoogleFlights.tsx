@@ -12,8 +12,7 @@ const GoogleFlights: React.FC = () => {
 
   const handleSortChange = (sortBy: string) => {
     updateFormData('sortBy', sortBy);
-    // Note: In a real app, you might want to trigger a new search here
-    // or handle sorting on the client side
+   
   };
 
   return (
