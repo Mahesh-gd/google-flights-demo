@@ -159,7 +159,7 @@ export class FlightService {
   }
 
   static async getFlightDetails(flightId: string): Promise<any> {
-    // Mock implementation for flight details
+    
     const flight = MOCK_FLIGHT_DATA.find(f => f.id === flightId);
     return Promise.resolve(flight);
   }

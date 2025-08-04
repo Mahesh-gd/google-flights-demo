@@ -98,8 +98,8 @@ const MOCK_FLIGHT_DATA: Itinerary[] = [
       destination: { id: "JFK", name: "New York JFK", displayCode: "JFK", city: "New York" },
       durationInMinutes: 1564,
       stopCount: 2,
-      departure: "2024-08-09T04:55:00",
-      arrival: "2024-08-10T09:29:00",
+      departure: "2025-08-09T04:55:00",
+      arrival: "2025-08-10T09:29:00",
       carriers: {
         marketing: [{
           id: 1,
@@ -765,8 +765,8 @@ const FlightSearchApp = () => {
     tripType: 'round-trip',
     origin: 'Bengaluru',
     destination: 'New York',
-    departDate: '2024-08-09',
-    returnDate: '2024-08-16',
+    departDate: '2025-08-09',
+    returnDate: '2025-08-16',
     passengers: '1',
     travelClass: 'economy',
     sortBy: 'best'
